@@ -23,12 +23,12 @@ export default function Main() {
                 </TextGoogle>
             </BoxGoogle>
             <BoxInput>
-                <SearchGoogle>
-                </SearchGoogle>
-
                 <LupaGoogle
                 src='src\assets\pesquisarIcon.png' alt=''>
                 </LupaGoogle>
+
+                <SearchGoogle>
+                </SearchGoogle>
 
                 <TecladoGoogle
                 src='src\assets\tecladoIcon.png' alt=''>

@@ -20,6 +20,13 @@ export const BoxLinks = styled.div `
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    /* reponsive - 425 */
+    @media (min-width: 425px) {
+        width: 20%;
+        
+        margin-right: 3%;
+    }
 `
 
 export const BoxMenus = styled.div `
@@ -31,6 +38,13 @@ export const BoxMenus = styled.div `
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    /* reponsive - 425 */
+    @media (min-width: 425px) {
+        width: 20%;
+        
+        margin-right: 3%;
+    }
 `
 
 export const Plink = styled.a `
@@ -41,6 +55,21 @@ export const Plink = styled.a `
         
         text-decoration: underline;
         font-weight: bold;
+    }
+
+    /* reponsive - 2560 */
+    @media (min-width: 2560px) {
+        font-size: 2em;
+    }
+
+    /* reponsive - 768 */
+    @media (min-width: 768px) {
+        font-size: 0.7em;
+    }
+
+    /* reponsive - 768 */
+    @media (min-width: 425px) {
+        font-size: 0.7em;
     }
 `
 

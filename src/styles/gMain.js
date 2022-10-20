@@ -16,23 +16,49 @@ export const BoxGoogle = styled.div `
     height: 30%;
 
     display: flex;
-    align-items: baseline;
+    align-items: center;
+
+    /* reponsive - 2560 */
+    @media (min-width: 2560px) {
+        width: 20%;
+    }
+
+    /* reponsive - 768 */
+    @media (min-width: 768px) {
+        width: 20%;
+    }
+
+    /* reponsive - 425 */
+    @media (min-width: 425px) {
+        width: 35%;
+    }
 `
 
 export const BoxInput = styled.div `
     width: 40%;
     height: 13%;
 
-    padding-left: 4%;
+    padding-left: 1%;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     
     border: #545454 solid 1px;
     border-radius: 50px;
     outline: none;
+
+    /* reponsive - 768 */
+    @media (min-width: 768px) {
+        width: 50%;
+    }
+
+    /* reponsive - 425 */
+    @media (min-width: 425px) {
+        width: 70%;
+        height: 11%;
+    }
 `
 
 export const BoxButtons = styled.div `
@@ -42,19 +68,29 @@ export const BoxButtons = styled.div `
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    /* reponsive - 768 */
+    @media (min-width: 768px) {
+        width: 40%;
+    }
+
+    /* reponsive - 425 */
+    @media (min-width: 425px) {
+        width: 50%;
+    }
 `
 
 export const TextGoogle = styled.img `
+    width: 100%;
+    
     &:hover {
         cursor: pointer;
     }
 `
 
 export const SearchGoogle = styled.input `
-    width: 80%;
+    width: 75%;
     height: 100%;
-
-    margin-left: -15%;
 
     outline: none;
     border: none;
@@ -62,40 +98,43 @@ export const SearchGoogle = styled.input `
 
 export const LupaGoogle = styled.img `
     width: auto;
-    height: 3%;
-
-    position: absolute;
-    top: 50.5%;
-    left: 31.5%;
+    height: 50%;
 
     &:hover {
         cursor: pointer;
+    }
+
+    /* reponsive - 425 */
+    @media (min-width: 425px) {
+        height: 40%;
     }
 `
 
 export const TecladoGoogle = styled.img `
     width: auto;
-    height: 3%;
-
-    position: absolute;
-    top: 50.5%;
-    left: 65%;
+    height: 50%;
 
     &:hover {
         cursor: pointer;
+    }
+
+    /* reponsive - 425 */
+    @media (min-width: 425px) {
+        height: 40%;
     }
 `
 
 export const VozGoogle = styled.img `
     width: auto;
-    height: 3%;
-
-    position: absolute;
-    top: 50.5%;
-    left: 67.5%;
+    height: 50%;
 
     &:hover {
         cursor: pointer;
+    }
+
+    /* reponsive - 425 */
+    @media (min-width: 425px) {
+        height: 40%;
     }
 `
 
@@ -114,5 +153,27 @@ export const SearchButton = styled.button `
 
         font-weight: bold;
         background-color: #CFCFCF;
+    }
+
+    /* reponsive - 2560 */
+    @media (min-width: 2560px) {
+        font-size: 1.8em;
+    }
+
+    /* reponsive - 1024 */
+    @media (min-width: 1024px) {
+        font-size: 0.8em;
+    }
+
+    /* reponsive - 768 */
+    @media (min-width: 768px) {
+        font-size: 0.7em;
+    }
+
+    /* reponsive - 425 */
+    @media (min-width: 425px) {
+        width: 35%;
+
+        font-size: 0.6em;
     }
 `
