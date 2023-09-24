@@ -3,6 +3,12 @@
 
 ---
 
+### Imagem do projeto
+
+<img src="">
+
+---
+
 ### Design
 
 <a href="https://www.figma.com/file/4OmgeBSG1Kja1YfqYcDJNJ/Other-Google?type=design&mode=design&t=Z0HyWvr5Pn2xeeg3-0">
