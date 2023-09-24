@@ -1,45 +1,24 @@
-<h1 style='text-align: center;'>
-    Other Google
-</h1>
+# otherGoogle
+    Um simulador do Google com um designe um diferenciado e bonito.
 
-<hr>
+---
 
-<p>
-    It is a project that replicates Google search page UI with some styling changes.
-</p>
+### Design
 
-<hr>
+<a href="https://www.figma.com/file/4OmgeBSG1Kja1YfqYcDJNJ/Other-Google?type=design&mode=design&t=Z0HyWvr5Pn2xeeg3-0">
+    <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+</a>
 
-<h2 style='font-size: 1.5em;'>
-    Image
-</h2>
-<img src='src\assets\OtherGoogle - Web.png'></img>
+---
 
-<hr>
+### Deploy
 
-<h2 style='font-size: 1.5em;'>
-    Design
-</h2>
-<a href="https://www.figma.com/file/4OmgeBSG1Kja1YfqYcDJNJ/Other-Google?node-id=0%3A1"><img src="https://img.shields.io/static/v1?label=Design&message=Figma&color=00FA9A&style=for-the-badge&logo=FIGMA" alt="ntShield" cursor="pointer" ></a>
+<a href="https://othergoogle.netlify.app">
+    <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white">
+</a>
 
-<hr>
+---
 
-<h2 style='font-size: 1.5em;'>
-    Application demo
-</h2>
+### Tecnologia
 
-<a href="https://othergoogle.netlify.app"><img src="https://img.shields.io/static/v1?label=Netlify&message=Demo&color=0e1e25&style=for-the-badge&logo=NETLIFY" alt="ntShield" cursor="pointer" ></a>
-
-<hr>
-
-<h2 style='font-size: 1.5em;'>
-    Technologies
-</h2>
-<img src='src\assets\react.svg' style='width: 8%;'></img>
-<img src='src\assets\styled-components.svg' style='width: 8%;'></img>
-
-<hr>
-
-<p style='text-align: center; font-size: 0.9em;'>
-    © Nathan Deodato
-</p>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
